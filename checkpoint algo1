@@ -5,7 +5,7 @@ VAR
     nb_word : INTEGER := 1;
     nb_vow : INTEGER := 0;
 BEGIN
-    WHILE (c != '.') DO
+    WHILE (c <> '.') DO
         Read(c);
         nb_char := nb_char +1;
         IF (c = 'a' OR c='e' OR c='i' OR c='o' OR c='u' OR c='y') THEN
